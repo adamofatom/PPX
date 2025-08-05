@@ -38,7 +38,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
-      - name: 安装Python3环境
+      - name: 安装Python3环境f
         uses: actions/setup-python@v5
         with:
           python-version: "3.9"
